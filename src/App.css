@@ -1,5 +1,4 @@
 .App {
-  /* text-align: center; */
   color: #343a40 !important;
 }
 
@@ -46,4 +45,8 @@
     255,
     0.6
   ); /*Generamos la opacidada de las cards*/
+}
+
+.card-header {
+  text-align: center;
 }

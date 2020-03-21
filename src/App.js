@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
+import { Container } from "react-bootstrap";
 import Menu from "./components/Menu";
 import PersonalInfo from "./components/PersonalInfo";
 import Name from "./components/Name";
 import Extract from "./components/Extract";
-import { Container } from "react-bootstrap";
+import Education from "./components/Education";
+import FurtherTraining from "./components/FurtherTraining";
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
           <Extract />
           <br></br>
           <PersonalInfo />
+          <br></br>
+          <Education />
+          <br></br>
+          <FurtherTraining />
           <br></br>
         </Container>
       </div>
