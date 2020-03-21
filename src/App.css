@@ -1,0 +1,38 @@
+.App {
+  /* text-align: center; */
+  color: #343a40 !important;
+}
+
+.App-Main {
+  background-color: #00c5d8;
+  min-height: 100vh;
+}
+
+.conteiner {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.PersonalInfo {
+}
+.Name {
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
+
+.Photo {
+  width: 171px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.media {
+  padding-top: 50px;
+}
+
+.media-body {
+  margin-top: 55px;
+}
+.card {
+  opacity: 0.5;
+}
