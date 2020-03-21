@@ -12,6 +12,7 @@
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 70px;
 }
 .PersonalInfo {
 }
@@ -23,11 +24,13 @@
 .Photo {
   width: 171px;
   height: 180px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .media {
-  padding-top: 50px;
+  border-radius: 0.25rem;
+  border: 1px solid #343a40;
 }
 
 .media-body {
@@ -35,3 +38,11 @@
 }
 .card {
 }
+
+/* .NameDiv {
+  border-top-left-radius: 1em 5em;
+  border-top-right-radius: 1em 5em;
+  border-bottom-right-radius: 1em 5em;
+  border-bottom-left-radius: 1em 5em;
+  border-color: #343a40;
+} */

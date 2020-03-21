@@ -13,6 +13,7 @@ function App() {
         <Menu />
         <Container>
           <Name />
+          <br></br>
           <Extract />
           <br></br>
           <PersonalInfo />
