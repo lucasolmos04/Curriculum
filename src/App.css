@@ -4,7 +4,7 @@
 }
 
 .App-Main {
-  background-color: #00c5d8;
+  background-color: #57cfff;
   min-height: 100vh;
 }
 
@@ -34,5 +34,4 @@
   margin-top: 55px;
 }
 .card {
-  opacity: 0.5;
 }

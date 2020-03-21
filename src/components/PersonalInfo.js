@@ -1,21 +1,53 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+import { Row, Card, Col } from "react-bootstrap";
 
 function Menu(props) {
   return (
-    <div className="row">
-      <Card>
-        <Card.Header as="h5">Featured</Card.Header>
-        <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
-          <Card.Text>
-            With supporting text below as a natural lead-in to additional
-            content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
-    </div>
+    <Row>
+      <Col>
+        <Card>
+          <Card.Header as="h5">Datos Personales</Card.Header>
+          <Card.Body>
+            <Row>
+              <Col>
+                <span>
+                  <strong>DNI: </strong>35157219
+                </span>
+                <br></br>
+                <span>
+                  <strong>Edad: </strong> 29 años
+                </span>
+                <br></br>
+                <span>
+                  <strong>Fecha de Nacimiento: </strong> 27/04/1990
+                </span>
+                <br></br>
+                <span>
+                  <strong>Estado Civil: </strong> Soltero
+                </span>
+              </Col>
+              <Col>
+                <span>
+                  <strong>Domicilio: </strong> Duilio Georgetti 130, Cafferata.
+                </span>
+                <br></br>
+                <span>
+                  <strong>Localidad: </strong> Alta Gracia, Córdoba, Argentina.
+                </span>
+                <br></br>
+                <span>
+                  <strong>Contacto: </strong> 03547-15477831
+                </span>
+                <br></br>
+                <span>
+                  <strong>Email: </strong> lucolmos@gmail.com
+                </span>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row>
   );
 }
 
