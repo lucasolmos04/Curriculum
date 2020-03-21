@@ -4,18 +4,21 @@
 }
 
 .App-Main {
-  background-color: #57cfff;
+  /* background-color: #57cfff; Celeste*/
+  background-image: url("./assets/img/preview.jpg");
   min-height: 100vh;
 }
 
-.conteiner {
+.container {
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 70px;
+  padding-top: 50px;
 }
+
 .PersonalInfo {
 }
+
 .Name {
   font-family: "Lora", serif;
   font-size: 50px;
@@ -37,12 +40,10 @@
   margin-top: 55px;
 }
 .card {
+  background-color: rgb(
+    255,
+    255,
+    255,
+    0.6
+  ); /*Generamos la opacidada de las cards*/
 }
-
-/* .NameDiv {
-  border-top-left-radius: 1em 5em;
-  border-top-right-radius: 1em 5em;
-  border-bottom-right-radius: 1em 5em;
-  border-bottom-left-radius: 1em 5em;
-  border-color: #343a40;
-} */
