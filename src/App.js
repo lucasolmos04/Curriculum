@@ -7,6 +7,7 @@ import Name from "./components/Name";
 import Extract from "./components/Extract";
 import Education from "./components/Education";
 import FurtherTraining from "./components/FurtherTraining";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Education />
           <br></br>
           <FurtherTraining />
+          <br></br>
+          <WorkExperience />
           <br></br>
         </Container>
       </div>
