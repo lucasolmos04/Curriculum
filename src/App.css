@@ -1,0 +1,52 @@
+.App {
+  color: #343a40 !important;
+}
+
+.App-Main {
+  /* background-color: #57cfff; Celeste*/
+  background-image: url("./assets/img/preview.jpg");
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
+}
+
+.PersonalInfo {
+}
+
+.Name {
+  font-family: "Lora", serif;
+  font-size: 50px;
+}
+
+.Photo {
+  width: 171px;
+  height: 180px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.media {
+  border-radius: 0.25rem;
+  border: 1px solid #343a40;
+}
+
+.media-body {
+  margin-top: 55px;
+}
+.card {
+  background-color: rgb(
+    255,
+    255,
+    255,
+    0.6
+  ); /*Generamos la opacidada de las cards*/
+}
+
+.card-header {
+  text-align: center;
+}
