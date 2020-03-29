@@ -13,12 +13,14 @@ function Name(props) {
           roundedCircle
         />
       </Col>
-      <div className="media-body">
-        <h5 className="mt-0 Name">LUCAS MAXIMILIANO OLMOS</h5>
-        <span>Analista Desarrollador .Net en IVECO para DICSYS</span>
-        <br></br>
-        <span>LinkeId</span>
-      </div>
+      <Col>
+        <div className="media-body">
+          <h5 className="mt-0 Name">LUCAS MAXIMILIANO OLMOS</h5>
+          <span>Analista Desarrollador .Net en IVECO para DICSYS</span>
+          <br></br>
+          <span>LinkeId</span>
+        </div>
+      </Col>
     </Row>
   );
 }

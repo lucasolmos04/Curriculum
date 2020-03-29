@@ -12,22 +12,20 @@ import WorkExperience from "./components/WorkExperience";
 function App() {
   return (
     <div className="App">
-      <div className="App-Main">
-        <Menu />
-        <Container>
-          <Name />
-          <br></br>
-          <Extract />
-          <br></br>
-          <PersonalInfo />
-          <br></br>
-          <Education />
-          <br></br>
-          <FurtherTraining />
-          <br></br>
-          <WorkExperience />
-          <br></br>
-        </Container>
+      <Menu />
+      <div className="containerExt">
+        <Name />
+        <br></br>
+        <Extract />
+        <br></br>
+        <PersonalInfo />
+        <br></br>
+        <Education />
+        <br></br>
+        <FurtherTraining />
+        <br></br>
+        <WorkExperience />
+        <br></br>
       </div>
     </div>
   );

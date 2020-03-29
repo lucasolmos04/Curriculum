@@ -1,14 +1,12 @@
 .App {
   color: #343a40 !important;
-}
-
-.App-Main {
-  /* background-color: #57cfff; Celeste*/
+  /* Celeste */
+  /* background-color: #57cfff; */
   background-image: url("./assets/img/preview.jpg");
   min-height: 100vh;
 }
 
-.container {
+.containerExt {
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
@@ -20,7 +18,7 @@
 
 .Name {
   font-family: "Lora", serif;
-  font-size: 50px;
+  font-size: 220%;
 }
 
 .Photo {
@@ -49,4 +47,8 @@
 
 .card-header {
   text-align: center;
+}
+
+.drop1 {
+  padding-right: 50px;
 }
