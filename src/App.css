@@ -1,14 +1,12 @@
 .App {
   color: #343a40 !important;
-}
-
-.App-Main {
-  /* background-color: #57cfff; Celeste*/
+  /* Celeste */
+  /* background-color: #57cfff; */
   background-image: url("./assets/img/preview.jpg");
   min-height: 100vh;
 }
 
-.container {
+.containerExt {
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
