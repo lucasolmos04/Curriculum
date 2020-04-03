@@ -28,7 +28,7 @@ function WorkExperience(props) {
               <Card.Body>
                 <Card.Title>Aulica - Netbel S.A</Card.Title>
                 <Card.Subtitle>
-                  Desarrollador de Software Full Stack .Net
+                  Desarrollador de Software Full Stack .Net C#
                 </Card.Subtitle>
                 <Card.Text>12/2017 - 07/2019</Card.Text>
               </Card.Body>
