@@ -9,6 +9,7 @@ import Education from "./components/Education";
 import FurtherTraining from "./components/FurtherTraining";
 import WorkExperience from "./components/WorkExperience";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Skills />
         <br></br>
       </div>
+      <Footer />
     </div>
   );
 }

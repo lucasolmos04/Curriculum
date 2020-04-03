@@ -52,3 +52,19 @@
 .drop1 {
   padding-right: 50px;
 }
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  height: 50px;
+}
+
+.divFooter {
+  padding-top: 10px;
+}
+
+ion-icon {
+  color: white;
+}
