@@ -20,18 +20,17 @@ function Menu(props) {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Navbar.Brand href="#home">Home</Navbar.Brand>
-          <Nav.Link>
-            <Link
-              to="personalInfo"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="some-class"
-              activeClass="some-active-class"
-            >
-              Datos Personales
-            </Link>
-          </Nav.Link>
+          <Link
+            role="button"
+            to="personalInfo"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="some-class nav-link navLinkPointer"
+            activeClass="some-active-class"
+          >
+            Datos Personales
+          </Link>
           <Nav.Link href="#education">Educacion</Nav.Link>
           <Nav.Link href="#workexperience">Experiencia Laboral</Nav.Link>
           <Nav.Link href="#qualifications">Skills</Nav.Link>
