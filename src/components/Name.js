@@ -4,7 +4,7 @@ import image from "../assets/img/FotoPersonal_.jpeg";
 
 function Name(props) {
   return (
-    <Row className="media">
+    <Row className="media" id="name">
       <Col xs={4} md={3}>
         <Image
           src={image}

@@ -5,7 +5,7 @@ function Education(props) {
   return (
     <Row>
       <Col>
-        <Card>
+        <Card id="education">
           <Card.Header as="h5">Educación</Card.Header>
           <Row>
             <Col>

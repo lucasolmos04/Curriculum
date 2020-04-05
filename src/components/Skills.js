@@ -5,7 +5,7 @@ function Skills(props) {
   return (
     <Row>
       <Col>
-        <Card>
+        <Card id="skills">
           <Card.Header as="h5">Skills</Card.Header>
           <Row>
             <Col>
