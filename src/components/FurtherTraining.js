@@ -14,7 +14,7 @@ function FurtherTrining(props) {
                 <Card.Subtitle>Curso Node Js</Card.Subtitle>
                 <br></br>
                 <Card.Text>
-                  Curso introductorio a los a los temas basicos de Node JS.
+                  Curso introductorio a los a los temas básicos de Node JS.
                   <br></br>
                   09/2019. Córdoba.
                 </Card.Text>
@@ -24,7 +24,7 @@ function FurtherTrining(props) {
                 <Card.Subtitle>Curso de Java 6 SE</Card.Subtitle>
                 <br></br>
                 <Card.Text>
-                  Curso intoructorio a los temas basicos de Java.
+                  Curso introductorio a los temas básicos de Java.
                   <br></br>
                   2013.
                 </Card.Text>

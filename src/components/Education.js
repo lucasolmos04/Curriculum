@@ -32,7 +32,7 @@ function Education(props) {
                 <Card.Subtitle>
                   2008-2014
                   <br></br>
-                  Ingenieria en Sistemas de Informacion.
+                  Ingeniería en Sistemas de Información.
                 </Card.Subtitle>
                 <br></br>
                 <Card.Text>Cursado incompleto - 2do y 3er año</Card.Text>
