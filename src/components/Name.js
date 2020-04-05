@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import { Col, Image, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import image from "../assets/img/FotoPersonal_.jpeg";
 
 function Name(props) {
@@ -16,9 +16,46 @@ function Name(props) {
       <Col>
         <div className="media-body">
           <h5 className="mt-0 Name">LUCAS MAXIMILIANO OLMOS</h5>
-          <span>Analista Desarrollador .Net en IVECO para DICSYS</span>
+          <span>
+            <strong>
+              <i>Analista Desarrollador .Net en IVECO para DICSYS</i>
+            </strong>
+          </span>
           <br></br>
-          <span>LinkeId</span>
+          {["bottom"].map(placement => (
+            <>
+              <OverlayTrigger
+                key={placement}
+                placement={placement}
+                overlay={<Tooltip id={`tooltip-${placement}`}>LinkeId</Tooltip>}
+              >
+                <span>
+                  <a
+                    href="https://www.linkedin.com/in/lucasolmos44"
+                    target="_blank"
+                    title="as"
+                  >
+                    <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                  </a>
+                </span>
+              </OverlayTrigger>
+              <OverlayTrigger
+                key={placement}
+                placement={placement}
+                overlay={<Tooltip id={`tooltip-${placement}`}>GitHub</Tooltip>}
+              >
+                <span>
+                  <a
+                    href="https://github.com/lucasolmos04"
+                    target="_blank"
+                    title="as"
+                  >
+                    <ion-icon name="logo-github" size="large"></ion-icon>
+                  </a>
+                </span>
+              </OverlayTrigger>
+            </>
+          ))}
         </div>
       </Col>
     </Row>
