@@ -68,3 +68,7 @@
 ion-icon {
   color: white;
 }
+
+.navLinkPointer {
+  cursor: pointer;
+}

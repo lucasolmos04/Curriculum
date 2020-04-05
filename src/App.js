@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Container } from "react-bootstrap";
 import Menu from "./components/Menu";
 import PersonalInfo from "./components/PersonalInfo";
 import Name from "./components/Name";

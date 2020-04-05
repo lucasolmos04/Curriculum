@@ -4,9 +4,9 @@ import { Row, Card, Col } from "react-bootstrap";
 function WorkExperience(props) {
   return (
     <Row>
-      <Col>
+      <Col id="workexperience">
         <Card>
-          <Card.Header as="h5">Expriencia Laboral</Card.Header>
+          <Card.Header as="h5">Experiencia Laboral</Card.Header>
           <Row>
             <Col>
               <Card.Body>

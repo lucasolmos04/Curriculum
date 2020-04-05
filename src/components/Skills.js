@@ -5,7 +5,7 @@ function Skills(props) {
   return (
     <Row>
       <Col>
-        <Card>
+        <Card id="skills">
           <Card.Header as="h5">Skills</Card.Header>
           <Row>
             <Col>
@@ -133,7 +133,7 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Metodologias</h5>
+                  <h5>Metodologías</h5>
                 </Card.Subtitle>
                 <ul>
                   <li>Scrum</li>
