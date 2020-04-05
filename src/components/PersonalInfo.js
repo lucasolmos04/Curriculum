@@ -5,7 +5,7 @@ function Menu(props) {
   return (
     <Row>
       <Col>
-        <Card>
+        <Card id="personalInfo">
           <Card.Header as="h5">Datos Personales</Card.Header>
           <Card.Body>
             <Row>
