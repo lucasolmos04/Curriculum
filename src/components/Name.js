@@ -25,9 +25,11 @@ function Name(props) {
           {["bottom"].map(placement => (
             <>
               <OverlayTrigger
-                key={placement}
+                key={placement.id}
                 placement={placement}
-                overlay={<Tooltip id={`tooltip-${placement}`}>LinkeId</Tooltip>}
+                overlay={
+                  <Tooltip id={`tooltip-${placement.id}`}>LinkeId</Tooltip>
+                }
               >
                 <span>
                   <a
@@ -35,14 +37,22 @@ function Name(props) {
                     target="_blank"
                     title="as"
                   >
-                    <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                    <ion-icon
+                      class="icons"
+                      name="logo-linkedin"
+                      size="large"
+                    ></ion-icon>
                   </a>
                 </span>
               </OverlayTrigger>
+            </>
+          ))}
+          {["bottom"].map(placement1 => (
+            <>
               <OverlayTrigger
-                key={placement}
-                placement={placement}
-                overlay={<Tooltip id={`tooltip-${placement}`}>GitHub</Tooltip>}
+                key={placement1}
+                placement={placement1}
+                overlay={<Tooltip id={`tooltip-${placement1}`}>GitHub</Tooltip>}
               >
                 <span>
                   <a
@@ -50,7 +60,11 @@ function Name(props) {
                     target="_blank"
                     title="as"
                   >
-                    <ion-icon name="logo-github" size="large"></ion-icon>
+                    <ion-icon
+                      class="icons"
+                      name="logo-github"
+                      size="large"
+                    ></ion-icon>
                   </a>
                 </span>
               </OverlayTrigger>

@@ -11,7 +11,10 @@ function Skills(props) {
             <Col>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>.Net</h5>
+                  <h5>
+                    .Net{" "}
+                    <img src="https://img.icons8.com/color/24/000000/microsoft.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>
@@ -39,7 +42,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Node Js</h5>
+                  <h5>
+                    Node Js{" "}
+                    <img src="https://img.icons8.com/color/30/000000/nodejs.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>
@@ -84,7 +90,12 @@ function Skills(props) {
             <Col>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Angular</h5>
+                  <div>
+                    <h5>
+                      Angular{" "}
+                      <img src="https://img.icons8.com/color/24/000000/angularjs.png" />
+                    </h5>
+                  </div>
                 </Card.Subtitle>
                 <ul>
                   <li>
@@ -104,7 +115,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Maquetado</h5>
+                  <h5>
+                    Maquetado{" "}
+                    <img src="https://img.icons8.com/color/24/000000/html-5.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>
@@ -120,7 +134,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Base de Datos</h5>
+                  <h5>
+                    Base de Datos{" "}
+                    <img src="https://img.icons8.com/color/30/000000/sql.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>
