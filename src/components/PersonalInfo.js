@@ -6,7 +6,10 @@ function Menu(props) {
     <Row>
       <Col>
         <Card id="personalInfo">
-          <Card.Header as="h5">Datos Personales</Card.Header>
+          <Card.Header as="h5">
+            Datos Personales{" "}
+            <img src="https://img.icons8.com/color/24/000000/edit-user-male--v1.png" />
+          </Card.Header>
           <Card.Body>
             <Row>
               <Col>

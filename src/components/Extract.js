@@ -6,7 +6,10 @@ function Extract(props) {
     <Row>
       <Col>
         <Card>
-          <Card.Header as="h5">Extracto</Card.Header>
+          <Card.Header as="h5">
+            Extracto{" "}
+            <img src="https://img.icons8.com/color/24/000000/contract-job.png" />
+          </Card.Header>
           <Card.Body>
             <p>
               Persona comprometida, responsable y perseverante. Trabajar en

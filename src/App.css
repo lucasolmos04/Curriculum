@@ -65,10 +65,14 @@
   padding-top: 10px;
 }
 
-ion-icon {
+.icons {
   color: white;
 }
 
 .navLinkPointer {
   cursor: pointer;
+}
+.iconify {
+  width: 55px;
+  height: 30px;
 }

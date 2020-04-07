@@ -6,7 +6,10 @@ function Education(props) {
     <Row>
       <Col>
         <Card id="education">
-          <Card.Header as="h5">Educación</Card.Header>
+          <Card.Header as="h5">
+            Educación{" "}
+            <img src="https://img.icons8.com/color/24/000000/student-male--v1.png" />
+          </Card.Header>
           <Row>
             <Col>
               <Card.Body>

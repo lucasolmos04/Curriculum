@@ -6,7 +6,10 @@ function WorkExperience(props) {
     <Row>
       <Col id="workexperience">
         <Card>
-          <Card.Header as="h5">Experiencia Laboral</Card.Header>
+          <Card.Header as="h5">
+            Experiencia Laboral{" "}
+            <img src="https://img.icons8.com/color/24/000000/working-with-a-laptop.png" />
+          </Card.Header>
           <Row>
             <Col>
               <Card.Body>

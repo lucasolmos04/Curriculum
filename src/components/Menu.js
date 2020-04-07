@@ -5,12 +5,13 @@ import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 
 function Menu(props) {
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   return (
     <Navbar fixed="top" bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand
-        onClick={() => scroll.scrollToTop()}
-        className="navLinkPointer"
-      >
+      <Navbar.Brand onClick={refreshPage} className="navLinkPointer">
         <Image
           src={logoImg}
           width="35"
@@ -79,7 +80,12 @@ function Menu(props) {
           title="Descargar"
           id="basic-nav-dropdown"
         >
-          <NavDropdown.Item href="#action/3.1">CV.pdf</NavDropdown.Item>
+          <NavDropdown.Item
+            href="../download/CV_LucasOlmos_DesarrolladorSoftware.pdf"
+            download
+          >
+            CV.pdf
+          </NavDropdown.Item>
         </NavDropdown>
         {/* <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
