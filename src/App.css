@@ -72,3 +72,7 @@
 .navLinkPointer {
   cursor: pointer;
 }
+.iconify {
+  width: 55px;
+  height: 30px;
+}

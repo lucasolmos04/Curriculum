@@ -6,7 +6,10 @@ function FurtherTrining(props) {
     <Row>
       <Col>
         <Card>
-          <Card.Header as="h5">Formación Complementaria</Card.Header>
+          <Card.Header as="h5">
+            Formación Complementaria{" "}
+            <img src="https://img.icons8.com/color/24/000000/classroom.png" />
+          </Card.Header>
           <Row>
             <Col>
               <Card.Body>

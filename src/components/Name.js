@@ -18,11 +18,11 @@ function Name(props) {
           <h5 className="mt-0 Name">LUCAS MAXIMILIANO OLMOS</h5>
           <span>
             <strong>
-              <i>Analista Desarrollador .Net en IVECO para DICSYS</i>
+              <i>Analista Desarrollador .Net en DICSYS para IVECO</i>
             </strong>
           </span>
           <br></br>
-          {["bottom"].map(placement => (
+          {["bottom"].map((placement) => (
             <>
               <OverlayTrigger
                 key={placement.id}
@@ -47,7 +47,7 @@ function Name(props) {
               </OverlayTrigger>
             </>
           ))}
-          {["bottom"].map(placement1 => (
+          {["bottom"].map((placement1) => (
             <>
               <OverlayTrigger
                 key={placement1}

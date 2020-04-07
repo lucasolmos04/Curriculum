@@ -6,7 +6,10 @@ function Skills(props) {
     <Row>
       <Col>
         <Card id="skills">
-          <Card.Header as="h5">Skills</Card.Header>
+          <Card.Header as="h5">
+            Skills{" "}
+            <img src="https://img.icons8.com/color/24/000000/development-skill.png" />
+          </Card.Header>
           <Row>
             <Col>
               <Card.Body>
@@ -105,7 +108,14 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>JQuery</h5>
+                  <h5>
+                    JQuery{" "}
+                    <span
+                      className="iconify"
+                      data-icon="logos:jquery"
+                      data-inline="false"
+                    ></span>
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>
