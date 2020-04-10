@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Card, Col } from "react-bootstrap";
+import { Row, Card, Col, Image } from "react-bootstrap";
+import icoUtn from "../assets/img/UTN_logo.ico";
 
 function Education(props) {
   return (
@@ -13,7 +14,16 @@ function Education(props) {
           <Row>
             <Col>
               <Card.Body>
-                <Card.Title> UTN - FRC </Card.Title>
+                <Card.Title>
+                  UTN - FRC{" "}
+                  <Image
+                    src={icoUtn}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>
                   2015-2017
                   <br></br>
@@ -31,7 +41,16 @@ function Education(props) {
             </Col>
             <Col>
               <Card.Body>
-                <Card.Title> UTN - FRC </Card.Title>
+                <Card.Title>
+                  UTN - FRC{" "}
+                  <Image
+                    src={icoUtn}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>
                   2008-2014
                   <br></br>

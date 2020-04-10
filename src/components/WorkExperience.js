@@ -1,5 +1,8 @@
 import React from "react";
-import { Row, Card, Col } from "react-bootstrap";
+import { Row, Card, Col, Image } from "react-bootstrap";
+import icoAulica from "../assets/img/aulica.ico";
+import icoBancor from "../assets/img/bancor1.ico";
+import icoDicsys from "../assets/img/dicsys-.ico";
 
 function WorkExperience(props) {
   return (
@@ -13,7 +16,16 @@ function WorkExperience(props) {
           <Row>
             <Col>
               <Card.Body>
-                <Card.Title> Dicsys S.A</Card.Title>
+                <Card.Title>
+                  Dicsys S.A{" "}
+                  <Image
+                    src={icoDicsys}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>
                   Analista Desarrollador .Net en IVECO
                 </Card.Subtitle>
@@ -21,7 +33,14 @@ function WorkExperience(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Title>
-                  BANCOR - Banco de la Provincia de Córdoba
+                  BANCOR - Banco de la Provincia de Córdoba{" "}
+                  <Image
+                    src={icoBancor}
+                    width="25"
+                    className="icoBancor"
+                    alt=""
+                    roundedCircle
+                  />
                 </Card.Title>
                 <Card.Subtitle>Desarrollador de Software .Net</Card.Subtitle>
                 <Card.Text>08/2019 - 11/2019</Card.Text>
@@ -29,7 +48,16 @@ function WorkExperience(props) {
             </Col>
             <Col>
               <Card.Body>
-                <Card.Title>Aulica - Netbel S.A</Card.Title>
+                <Card.Title>
+                  Aulica - Netbel S.A{" "}
+                  <Image
+                    src={icoAulica}
+                    width="25"
+                    className="icoAulica"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>
                   Desarrollador de Software Full Stack .Net C#
                 </Card.Subtitle>
