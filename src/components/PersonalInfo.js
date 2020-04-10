@@ -43,7 +43,8 @@ function Menu(props) {
                 </span>
                 <br></br>
                 <span>
-                  <strong>Email: </strong> lucolmos@gmail.com
+                  <strong>Email: </strong>
+                  <a href="mailto: lucolmos@gmail.com">lucolmos@gmail.com</a>
                 </span>
               </Col>
             </Row>
