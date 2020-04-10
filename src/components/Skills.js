@@ -160,7 +160,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Metodologías</h5>
+                  <h5>
+                    Metodologías{" "}
+                    <img src="https://img.icons8.com/color/24/000000/hard-working.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>Scrum</li>
@@ -171,7 +174,10 @@ function Skills(props) {
             <Col>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Gestión de Proyectos</h5>
+                  <h5>
+                    Gestión de Proyectos{" "}
+                    <img src="https://img.icons8.com/color/24/000000/jira.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>Jira</li>
@@ -180,7 +186,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Patrón Arquitectonico</h5>
+                  <h5>
+                    Patrón Arquitectonico{" "}
+                    <img src="https://img.icons8.com/color/24/000000/graph-clique.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>MVC</li>
@@ -188,7 +197,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>Manejo de Repositorios</h5>
+                  <h5>
+                    Manejo de Repositorios{" "}
+                    <img src="https://img.icons8.com/color/24/000000/git.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>Git</li>
@@ -198,7 +210,10 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
-                  <h5>IDE de Desarrollo/Editores</h5>
+                  <h5>
+                    IDE de Desarrollo/Editores{" "}
+                    <img src="https://img.icons8.com/color/24/000000/visual-studio-2019.png" />
+                  </h5>
                 </Card.Subtitle>
                 <ul>
                   <li>Visual Studio</li>

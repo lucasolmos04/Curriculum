@@ -2,8 +2,8 @@
   color: #343a40 !important;
   /* Celeste */
   /* background-color: #57cfff; */
-  background-image: url("./assets/img/preview.jpg");
-  min-height: 100vh;
+  background-image: url("./assets/img/background2.png");
+  background-size: cover;
 }
 
 .containerExt {
@@ -21,6 +21,10 @@
   font-size: 220%;
 }
 
+#name {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
 .Photo {
   width: 171px;
   height: 180px;
@@ -30,7 +34,7 @@
 
 .media {
   border-radius: 0.25rem;
-  border: 1px solid #343a40;
+  border: 1px solid rgb(255, 255, 255, 0.3);
 }
 
 .media-body {
@@ -41,7 +45,7 @@
     255,
     255,
     255,
-    0.6
+    0.7
   ); /*Generamos la opacidada de las cards*/
 }
 
@@ -75,4 +79,7 @@
 .iconify {
   width: 55px;
   height: 30px;
+}
+.divIconName {
+  margin-top: 10px;
 }

@@ -1,5 +1,7 @@
 import React from "react";
-import { Row, Card, Col } from "react-bootstrap";
+import { Row, Card, Col, Image } from "react-bootstrap";
+import icoUtn from "../assets/img/UTN_logo.ico";
+import icoIncluit from "../assets/img/incluit.ico";
 
 function FurtherTrining(props) {
   return (
@@ -13,7 +15,16 @@ function FurtherTrining(props) {
           <Row>
             <Col>
               <Card.Body>
-                <Card.Title> Incluit </Card.Title>
+                <Card.Title>
+                  Incluit{" "}
+                  <Image
+                    src={icoIncluit}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>Curso Node Js</Card.Subtitle>
                 <br></br>
                 <Card.Text>
@@ -23,7 +34,16 @@ function FurtherTrining(props) {
                 </Card.Text>
               </Card.Body>
               <Card.Body>
-                <Card.Title> Academia Cisco Oracle - UTN FRC </Card.Title>
+                <Card.Title>
+                  Academia Cisco Oracle - UTN FRC{" "}
+                  <Image
+                    src={icoUtn}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>Curso de Java 6 SE</Card.Subtitle>
                 <br></br>
                 <Card.Text>
@@ -46,7 +66,16 @@ function FurtherTrining(props) {
             </Col>
             <Col>
               <Card.Body>
-                <Card.Title> UTN - FRC </Card.Title>
+                <Card.Title>
+                  UTN - FRC{" "}
+                  <Image
+                    src={icoUtn}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>Conferencia</Card.Subtitle>
                 <br></br>
                 <Card.Text>
@@ -57,7 +86,16 @@ function FurtherTrining(props) {
                 </Card.Text>
               </Card.Body>
               <Card.Body>
-                <Card.Title> UTN - Facultad Regional La Plata </Card.Title>
+                <Card.Title>
+                  UTN - Facultad Regional La Plata{" "}
+                  <Image
+                    src={icoUtn}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
                 <Card.Subtitle>Congreso</Card.Subtitle>
                 <br></br>
                 <Card.Text>
