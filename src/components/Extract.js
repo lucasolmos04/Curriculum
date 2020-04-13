@@ -21,7 +21,7 @@ function Extract(props) {
               tecnologías de Microsoft .Net especialemente en C#. En mis tiempos
               libres investigo sobre otras tecnologías como por ejemplo algunas
               librerias de Javascript puntualmente React, Angular y Node Js. Una
-              de los skills tecnicos quiero sumar es el nuevo Framework de
+              de los skills técnicos quiero sumar es el nuevo Framework de
               Microsoft, .Net Core.
             </p>
             <p>
@@ -30,6 +30,12 @@ function Extract(props) {
               Microsoft .NET Framework, Jquery y Microsoft SQL Server para Base
               de Datos.
             </p>
+            <center>
+              <p>
+                {" "}
+                <i>El positivismo y ganas de aprender nunca faltan.</i>
+              </p>
+            </center>
           </Card.Body>
         </Card>
       </Col>
