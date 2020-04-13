@@ -4,7 +4,7 @@ import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 
-function Menu(props) {
+function Header(props) {
   function refreshPage() {
     window.location.reload(false);
   }
@@ -81,7 +81,7 @@ function Menu(props) {
           id="basic-nav-dropdown"
         >
           <NavDropdown.Item
-            href="../download/CV_LucasOlmos_DesarrolladorSoftware.pdf"
+            href="../download/CV_LucasOlmos_DevSoftware.pdf"
             download
           >
             CV.pdf
@@ -96,4 +96,4 @@ function Menu(props) {
   );
 }
 
-export default Menu;
+export default Header;

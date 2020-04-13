@@ -12,18 +12,30 @@ function Extract(props) {
           </Card.Header>
           <Card.Body>
             <p>
-              Persona comprometida, responsable y perseverante. Trabajar en
-              equipo usando metodologías agiles es donde me siento más cómodo ,
-              dando apoyo ya sea en lo profesional como en lo humano.
+              Hola!
+              <img src="https://img.icons8.com/color/24/000000/hand.png" />
+              Me presento soy Lucas, una persona comprometida con lo que hace,
+              responsable y perseverante. Trabajar en equipo usando metodologías
+              agiles es donde me siento más cómodo , dando apoyo ya sea en lo
+              profesional como en lo humano. Me gusta trabajar desarrollando con
+              tecnologías de Microsoft .Net especialemente en C#. En mis tiempos
+              libres investigo sobre otras tecnologías como por ejemplo algunas
+              librerias de Javascript puntualmente React, Angular y Node Js. Una
+              de los skills técnicos quiero sumar es el nuevo Framework de
+              Microsoft, .Net Core.
             </p>
             <p>
-              Hablando un poco de lo técnico, me gusta investigar cosas
-              relacionadas con Javascript ya sea en Angular, React o Node Js.
               Actualmente me encuentro desempeñando mis actividades laborales en
               Dicsys SA para el cliente IVECO, utilizando las tecnologías de
-              Microsoft .NET Framework y Microsoft SQL Server para Base de
-              Datos.
+              Microsoft .NET Framework, Jquery y Microsoft SQL Server para Base
+              de Datos.
             </p>
+            <center>
+              <p>
+                {" "}
+                <i>El positivismo y ganas de aprender nunca faltan.</i>
+              </p>
+            </center>
           </Card.Body>
         </Card>
       </Col>

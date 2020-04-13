@@ -35,7 +35,7 @@ function Education(props) {
                   <br></br>
                   <span>Empresa: Amoblamientos Martinez.</span>
                   <br></br>
-                  <span>Tecnologia usada: C# .NET, MVC Razor.</span>
+                  <span>Tecnología usada: C# .NET, MVC Razor.</span>
                 </Card.Text>
               </Card.Body>
             </Col>

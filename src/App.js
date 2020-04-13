@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Menu from "./components/Menu";
+import Header from "./components/Header";
 import PersonalInfo from "./components/PersonalInfo";
 import Name from "./components/Name";
 import Extract from "./components/Extract";
@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Header />
       <div className="containerExt">
         <Name />
         <br></br>
