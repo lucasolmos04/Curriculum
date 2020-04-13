@@ -4,7 +4,7 @@ import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 
-function Menu(props) {
+function Header(props) {
   function refreshPage() {
     window.location.reload(false);
   }
@@ -96,4 +96,4 @@ function Menu(props) {
   );
 }
 
-export default Menu;
+export default Header;
