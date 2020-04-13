@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Image, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
-import image from "../assets/img/FotoPersonal_.jpeg";
+import image from "../assets/img/Foto.jpg";
 
 function Name(props) {
   return (

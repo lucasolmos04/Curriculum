@@ -161,13 +161,13 @@ function Skills(props) {
               <Card.Body>
                 <Card.Subtitle>
                   <h5>
-                    Metodologías{" "}
+                    Gestión de Proyectos{" "}
                     <img src="https://img.icons8.com/color/24/000000/hard-working.png" />
                   </h5>
                 </Card.Subtitle>
                 <ul>
-                  <li>Scrum</li>
-                  <li>Cascada</li>
+                  <li>Metodología Agil Scrum</li>
+                  <li>Metodologías tradicionales</li>
                 </ul>
               </Card.Body>
             </Col>
@@ -175,7 +175,7 @@ function Skills(props) {
               <Card.Body>
                 <Card.Subtitle>
                   <h5>
-                    Gestión de Proyectos{" "}
+                    Administración de Tareas{" "}
                     <img src="https://img.icons8.com/color/24/000000/jira.png" />
                   </h5>
                 </Card.Subtitle>

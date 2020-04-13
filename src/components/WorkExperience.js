@@ -29,7 +29,7 @@ function WorkExperience(props) {
                 <Card.Subtitle>
                   Analista Desarrollador .Net en IVECO
                 </Card.Subtitle>
-                <Card.Text>2019 - Actualmente</Card.Text>
+                <Card.Text>11/2019 - Actualmente</Card.Text>
               </Card.Body>
               <Card.Body>
                 <Card.Title>
