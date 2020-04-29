@@ -2,6 +2,41 @@ import React from "react";
 import { Row, Card, Col } from "react-bootstrap";
 
 function Menu(props) {
+  // Calculo de Cumpleaños
+  function years() {
+    let actualTime = new Date().toLocaleDateString();
+    let cumpleaños = new Date(1990, 3, 27).toLocaleDateString();
+    let aActualTime = actualTime.split("/");
+    let aCumpleaños = cumpleaños.split("/");
+    let yearOld = aActualTime[2] - 1 - aCumpleaños[2];
+    let yearActual = aActualTime[2] - aCumpleaños[2];
+
+    // Dia Actual = Dia Cumpleaños
+    if (aActualTime[0] == aCumpleaños[0]) {
+      // Mes Actual = Mes Cumpleaños
+      if (aActualTime[1] == aCumpleaños[1]) {
+        return yearActual;
+      } else {
+        if (aActualTime[1] > aCumpleaños[1]) {
+          return yearActual;
+        }
+        return yearOld;
+      }
+    } else {
+      if (aActualTime[1] > aCumpleaños[1]) {
+        // Mes Actual > Mes Cumpleaños
+        return yearActual;
+      } else {
+        if (aActualTime[1] == aCumpleaños[1]) {
+          // Mes Actual < Mes Cumpleaños
+          return yearActual;
+        } else {
+          return yearOld;
+        }
+      }
+    }
+  }
+
   return (
     <Row>
       <Col>
@@ -18,7 +53,7 @@ function Menu(props) {
                 </span>
                 <br></br>
                 <span>
-                  <strong>Edad: </strong> 29 años
+                  <strong>Edad: </strong> {years()} años
                 </span>
                 <br></br>
                 <span>
