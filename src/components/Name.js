@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Image, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
-import image from "../assets/img/Foto.jpg";
+import image from "../assets/img/Foto3.jpg";
 
 function Name(props) {
   return (
     <Row className="media" id="name">
-      <Col xs={4} md={3}>
+      <Col xs={4} md={3} className="divPhoto">
         <Image
           src={image}
           className="align-self-center mr-3 Photo"
@@ -14,7 +14,7 @@ function Name(props) {
         />
       </Col>
       <Col>
-        <div className="media-body">
+        <div className="media-body NamePrincipal">
           <h5 className="mt-0 Name">LUCAS MAXIMILIANO OLMOS</h5>
           <span>
             <img src="https://img.icons8.com/color/24/000000/working-with-a-laptop.png" />{" "}
