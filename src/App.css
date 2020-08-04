@@ -26,8 +26,8 @@
 }
 
 .Photo {
-  width: 171px;
-  height: 180px;
+  width: 170px;
+  height: 230px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -80,4 +80,10 @@
 }
 .copyright {
   font-size: small;
+}
+.divPhoto {
+  padding-left: 45px;
+}
+.NamePrincipal {
+  padding-left: 5px;
 }

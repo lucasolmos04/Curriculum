@@ -20,7 +20,7 @@ function Extract(props) {
               profesional como en lo humano. Me gusta trabajar desarrollando con
               tecnologías de Microsoft .Net especialemente en C#. En mis tiempos
               libres investigo sobre otras tecnologías como por ejemplo algunas
-              librerias de Javascript puntualmente React, Angular y Node Js. Una
+              librerias de Javascript puntualmente React, Angular y Node Js. Uno
               de los skills técnicos quiero sumar es el nuevo Framework de
               Microsoft, .Net Core.
             </p>
