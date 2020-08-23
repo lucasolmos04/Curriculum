@@ -3,6 +3,7 @@ import logoImg from "../assets/img/LO(1).png";
 import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
+import pdf from "../download/CV_LucasOlmos_DevSoftware.pdf";
 
 function Header(props) {
   function refreshPage() {
@@ -80,10 +81,7 @@ function Header(props) {
           title="Descargar"
           id="basic-nav-dropdown"
         >
-          <NavDropdown.Item
-            href="../download/CV_LucasOlmos_DevSoftware_2020.pdf"
-            download
-          >
+          <NavDropdown.Item href={pdf} download target="_blank">
             CV.pdf
           </NavDropdown.Item>
         </NavDropdown>
