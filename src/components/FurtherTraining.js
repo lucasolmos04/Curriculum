@@ -1,7 +1,8 @@
 import React from "react";
-import { Row, Card, Col, Image } from "react-bootstrap";
+import { Row, Card, Col, Image, Badge } from "react-bootstrap";
 import icoUtn from "../assets/img/UTN_logo.ico";
 import icoIncluit from "../assets/img/incluit.ico";
+import icoUdemy from "../assets/img/udemy.ico";
 
 function FurtherTrining(props) {
   return (
@@ -14,6 +15,51 @@ function FurtherTrining(props) {
           </Card.Header>
           <Row>
             <Col>
+              <Card.Body>
+                <Card.Title>
+                  Udemy{" "}
+                  <Image
+                    src={icoUdemy}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
+                <Card.Subtitle>
+                  Master en ASP .NET Core y Reack Hooksen Azure{" "}
+                  <Badge variant="success">Nuevo</Badge>
+                </Card.Subtitle>
+                <br></br>
+                <Card.Text>
+                  Curso de ASP .NET Core, Entity Framework. Reack Hooks y
+                  Material Design. Deploy en Micorsoft Azure.
+                  <br></br>
+                  08/2020.
+                </Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Title>
+                  Udemy{" "}
+                  <Image
+                    src={icoUdemy}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
+                <Card.Subtitle>
+                  React JS: La biblioteca de JS creada por Facebook.
+                </Card.Subtitle>
+                <br></br>
+                <Card.Text>
+                  Primeros pasos en Reack Js, hooks, componentes, props y
+                  navagación con React Router Dom
+                  <br></br>
+                  02/2020.
+                </Card.Text>
+              </Card.Body>
               <Card.Body>
                 <Card.Title>
                   Incluit{" "}
@@ -33,6 +79,8 @@ function FurtherTrining(props) {
                   09/2019. Córdoba.
                 </Card.Text>
               </Card.Body>
+            </Col>
+            <Col>
               <Card.Body>
                 <Card.Title>
                   Academia Cisco Oracle - UTN FRC{" "}
@@ -61,48 +109,6 @@ function FurtherTrining(props) {
                   software y hardware.
                   <br></br>
                   2013. Córdoba.
-                </Card.Text>
-              </Card.Body>
-            </Col>
-            <Col>
-              <Card.Body>
-                <Card.Title>
-                  UTN - FRC{" "}
-                  <Image
-                    src={icoUtn}
-                    width="20"
-                    className="icoUTN"
-                    alt=""
-                    roundedCircle
-                  />
-                </Card.Title>
-                <Card.Subtitle>Conferencia</Card.Subtitle>
-                <br></br>
-                <Card.Text>
-                  Conferencia Colaboración en línea y Computación en la nube -
-                  del Email
-                  <br></br>
-                  13/08/2013
-                </Card.Text>
-              </Card.Body>
-              <Card.Body>
-                <Card.Title>
-                  UTN - Facultad Regional La Plata{" "}
-                  <Image
-                    src={icoUtn}
-                    width="20"
-                    className="icoUTN"
-                    alt=""
-                    roundedCircle
-                  />
-                </Card.Title>
-                <Card.Subtitle>Congreso</Card.Subtitle>
-                <br></br>
-                <Card.Text>
-                  VI Congreso Nacional de Estudiantes de la Ingeniería en
-                  Sistemas de Información (CNEISI).
-                  <br></br>
-                  10/2012. La Plata.
                 </Card.Text>
               </Card.Body>
             </Col>

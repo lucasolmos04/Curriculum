@@ -20,9 +20,9 @@ function Extract(props) {
               profesional como en lo humano. Me gusta trabajar desarrollando con
               tecnologías de Microsoft .Net especialemente en C#. En mis tiempos
               libres investigo sobre otras tecnologías como por ejemplo algunas
-              librerias de Javascript puntualmente React, Angular y Node Js. Uno
-              de los skills técnicos quiero sumar es el nuevo Framework de
-              Microsoft, .Net Core.
+              librerias de Javascript puntualmente React, Angular y/o Node Js.
+              Uno de los skills técnicos que acabo de sumar es el nuevo
+              Framework de Microsoft .Net Core.
             </p>
             <p>
               Actualmente me encuentro desempeñando mis actividades laborales en
@@ -33,7 +33,7 @@ function Extract(props) {
             <center>
               <p>
                 {" "}
-                <i>El positivismo y ganas de aprender nunca faltan.</i>
+                <i>El positivismo y ganas de aprender es mi lema.</i>
               </p>
             </center>
           </Card.Body>

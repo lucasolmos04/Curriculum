@@ -23,13 +23,7 @@
 
 #name {
   background-color: rgb(255, 255, 255, 0.3);
-}
-
-.Photo {
-  width: 170px;
-  height: 230px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  text-align: center;
 }
 
 .media {
@@ -38,7 +32,7 @@
 }
 
 .media-body {
-  margin-top: 55px;
+  margin-top: 20px;
 }
 .card {
   background-color: rgb(
@@ -82,8 +76,20 @@
   font-size: small;
 }
 .divPhoto {
-  padding-left: 45px;
+  /* padding-left: 45px; */
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
 }
+
+/* .Photo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+} */
 .NamePrincipal {
   padding-left: 5px;
 }

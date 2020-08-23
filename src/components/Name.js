@@ -1,20 +1,17 @@
 import React from "react";
 import { Col, Image, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
-import image from "../assets/img/Foto3.jpg";
+import image from "../assets/img/foto5_Cara.jpg";
+import Avatar from "react-avatar";
 
 function Name(props) {
   return (
-    <Row className="media" id="name">
-      <Col xs={4} md={3} className="divPhoto">
-        <Image
-          src={image}
-          className="align-self-center mr-3 Photo"
-          alt=""
-          roundedCircle
-        />
+    <Row xs={8} md={8} className="media" id="name">
+      <Col className="divPhoto">
+        <Avatar src={image} className="" alt="" round={true} size="120" />
       </Col>
+      <div class="w-100"></div>
       <Col>
-        <div className="media-body NamePrincipal">
+        <div className="media-body">
           <h5 className="mt-0 Name">LUCAS MAXIMILIANO OLMOS</h5>
           <span>
             <img src="https://img.icons8.com/color/24/000000/working-with-a-laptop.png" />{" "}
