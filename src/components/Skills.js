@@ -89,6 +89,30 @@ function Skills(props) {
                   </li>
                 </ul>
               </Card.Body>
+              <Card.Body>
+                <Card.Subtitle>
+                  <div>
+                    <h5>
+                      React{" "}
+                      <img src="https://img.icons8.com/nolan/24/react-native.png" />
+                    </h5>
+                  </div>
+                </Card.Subtitle>
+                <ul>
+                  <li>
+                    <strong>Components</strong> Jr.
+                  </li>
+                  <li>
+                    <strong>Props</strong> Jr.
+                  </li>
+                  <li>
+                    <strong>Hooks</strong> Jr.
+                  </li>
+                  <li>
+                    <strong>Router Dom</strong> Jr.
+                  </li>
+                </ul>
+              </Card.Body>
             </Col>
             <Col>
               <Card.Body>

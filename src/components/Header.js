@@ -81,7 +81,7 @@ function Header(props) {
           id="basic-nav-dropdown"
         >
           <NavDropdown.Item
-            href="../download/CV_LucasOlmos_DevSoftware.pdf"
+            href="../download/CV_LucasOlmos_DevSoftware_2020.pdf"
             download
           >
             CV.pdf
