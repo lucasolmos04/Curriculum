@@ -3,6 +3,7 @@ import { Row, Card, Col, Image } from "react-bootstrap";
 import icoAulica from "../assets/img/aulica.ico";
 import icoBancor from "../assets/img/bancor1.ico";
 import icoDicsys from "../assets/img/dicsys-.ico";
+import icoIncluit from "../assets/img/incluit.ico";
 
 function WorkExperience(props) {
   return (
@@ -17,6 +18,20 @@ function WorkExperience(props) {
             <Col>
               <Card.Body>
                 <Card.Title>
+                  IncluIT{" "}
+                  <Image
+                    src={icoIncluit}
+                    width="20"
+                    className="icoUTN"
+                    alt=""
+                    roundedCircle
+                  />
+                </Card.Title>
+                <Card.Subtitle>Full Stack Developer</Card.Subtitle>
+                <Card.Text>09/2020 - Actualmente</Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Title>
                   Dicsys S.A{" "}
                   <Image
                     src={icoDicsys}
@@ -29,8 +44,10 @@ function WorkExperience(props) {
                 <Card.Subtitle>
                   Analista Desarrollador .Net en IVECO
                 </Card.Subtitle>
-                <Card.Text>11/2019 - Actualmente</Card.Text>
+                <Card.Text>11/2019 - 09/2020</Card.Text>
               </Card.Body>
+            </Col>
+            <Col>
               <Card.Body>
                 <Card.Title>
                   BANCOR - Banco de la Provincia de Córdoba{" "}
@@ -45,8 +62,6 @@ function WorkExperience(props) {
                 <Card.Subtitle>Desarrollador de Software .Net</Card.Subtitle>
                 <Card.Text>08/2019 - 11/2019</Card.Text>
               </Card.Body>
-            </Col>
-            <Col>
               <Card.Body>
                 <Card.Title>
                   Aulica - Netbel S.A{" "}

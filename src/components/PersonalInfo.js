@@ -12,22 +12,22 @@ function Menu(props) {
     let yearActual = aActualTime[2] - aCumpleaños[2];
 
     // Dia Actual = Dia Cumpleaños
-    if (aActualTime[0] == aCumpleaños[0]) {
+    if (parseInt(aActualTime[0]) == parseInt(aCumpleaños[0])) {
       // Mes Actual = Mes Cumpleaños
-      if (aActualTime[1] == aCumpleaños[1]) {
+      if (parseInt(aActualTime[1]) == parseInt(aCumpleaños[1])) {
         return yearActual;
       } else {
-        if (aActualTime[1] > aCumpleaños[1]) {
+        if (parseInt(aActualTime[1]) > parseInt(aCumpleaños[1])) {
           return yearActual;
         }
         return yearOld;
       }
     } else {
-      if (aActualTime[1] > aCumpleaños[1]) {
+      if (parseInt(aActualTime[1]) > parseInt(aCumpleaños[1])) {
         // Mes Actual > Mes Cumpleaños
         return yearActual;
       } else {
-        if (aActualTime[1] == aCumpleaños[1]) {
+        if (parseInt(aActualTime[1]) == parseInt(aCumpleaños[1])) {
           // Mes Actual < Mes Cumpleaños
           return yearActual;
         } else {

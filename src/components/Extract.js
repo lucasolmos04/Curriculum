@@ -26,9 +26,9 @@ function Extract(props) {
             </p>
             <p>
               Actualmente me encuentro desempeñando mis actividades laborales en
-              Dicsys SA para el cliente IVECO, utilizando las tecnologías de
-              Microsoft .NET Framework, Jquery y Microsoft SQL Server para Base
-              de Datos.
+              Incluit S.A para un proyecto de Sancor Seguros realizando tareas
+              de Full Stack en donde manejamos las tecnologias de Vue Js para el
+              Front y .Net Core para el Back.
             </p>
             <center>
               <p>

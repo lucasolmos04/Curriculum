@@ -62,7 +62,7 @@ function FurtherTrining(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Title>
-                  Incluit{" "}
+                  IncluIT{" "}
                   <Image
                     src={icoIncluit}
                     width="20"
