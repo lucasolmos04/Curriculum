@@ -16,7 +16,7 @@ function Name(props) {
           <span>
             <img src="https://img.icons8.com/color/24/000000/working-with-a-laptop.png" />{" "}
             <strong>
-              <i>Analista Desarrollador .Net en DICSYS para IVECO</i>
+              <i>Full Stack Developer at IncluIT</i>
             </strong>
           </span>
           <br></br>

@@ -132,6 +132,21 @@ function Skills(props) {
               </Card.Body>
               <Card.Body>
                 <Card.Subtitle>
+                  <div>
+                    <h5>
+                      Vue Js{" "}
+                      <img src="https://img.icons8.com/color/24/000000/vue-js.png" />
+                    </h5>
+                  </div>
+                </Card.Subtitle>
+                <ul>
+                  <li>
+                    <strong>Vue: </strong> Jr.
+                  </li>
+                </ul>
+              </Card.Body>
+              <Card.Body>
+                <Card.Subtitle>
                   <h5>
                     JQuery{" "}
                     <span
@@ -143,7 +158,7 @@ function Skills(props) {
                 </Card.Subtitle>
                 <ul>
                   <li>
-                    <strong>JQuery</strong> SSr.
+                    <strong>JQuery: </strong> SSr.
                   </li>
                 </ul>
               </Card.Body>
@@ -156,13 +171,13 @@ function Skills(props) {
                 </Card.Subtitle>
                 <ul>
                   <li>
-                    <strong>HTML</strong> SSr.
+                    <strong>HTML: </strong> SSr.
                   </li>
                   <li>
-                    <strong>CSS</strong> SSr.
+                    <strong>CSS: </strong> SSr.
                   </li>
                   <li>
-                    <strong>Bootstrap</strong> SSr.
+                    <strong>Bootstrap: </strong> SSr.
                   </li>
                 </ul>
               </Card.Body>
@@ -175,10 +190,10 @@ function Skills(props) {
                 </Card.Subtitle>
                 <ul>
                   <li>
-                    <strong>SQL Server</strong> SSr.
+                    <strong>SQL Server: </strong> SSr.
                   </li>
                   <li>
-                    <strong>Oracle</strong> SSr.
+                    <strong>Oracle: </strong> SSr.
                   </li>
                 </ul>
               </Card.Body>
