@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05d2988b.chunk.css",
+    "main.js": "/static/js/main.39593935.chunk.js",
+    "main.js.map": "/static/js/main.39593935.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d7c8459.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d7c8459.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.c3d4b548.chunk.js": "/static/js/2.c3d4b548.chunk.js",
+    "static/js/2.c3d4b548.chunk.js.map": "/static/js/2.c3d4b548.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d61fcd107d9dd90d42fdbb642ceb59fb.js": "/precache-manifest.d61fcd107d9dd90d42fdbb642ceb59fb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/main.05d2988b.chunk.css.map": "/static/css/main.05d2988b.chunk.css.map",
+    "static/js/2.c3d4b548.chunk.js.LICENSE.txt": "/static/js/2.c3d4b548.chunk.js.LICENSE.txt",
+    "static/media/CV_LucasOlmos_DevSoftware.pdf": "/static/media/CV_LucasOlmos_DevSoftware.dde62d62.pdf",
+    "static/media/UTN_logo.ico": "/static/media/UTN_logo.4bb15859.ico",
+    "static/media/aulica.ico": "/static/media/aulica.4eee67f4.ico",
+    "static/media/App.css": "/static/media/background2.45112be8.png",
+    "static/media/bancor1.ico": "/static/media/bancor1.c5ebc547.ico",
+    "static/media/dicsys-.ico": "/static/media/dicsys-.265f99d9.ico",
+    "static/media/foto5_Cara.jpg": "/static/media/foto5_Cara.7fc091e2.jpg",
+    "static/media/incluit.ico": "/static/media/incluit.459fa0f1.ico",
+    "static/media/udemy.ico": "/static/media/udemy.c08a7272.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d7c8459.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.c3d4b548.chunk.js",
+    "static/css/main.05d2988b.chunk.css",
+    "static/js/main.39593935.chunk.js"
+  ]
+}
